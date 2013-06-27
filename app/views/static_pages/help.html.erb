@@ -1,12 +1,5 @@
-<DOCTYPE html>
-<html>
-	<head>
-		<title>Ruby on Rails Tutorial Sample App | Help</title>
-	</head>
-	<body>
-	<h1>Help</h1>
-	<p> Get help. Notice that
-		<a href="http://google.com/,aps">Where are you?</a>.
-	</p>
-	</body>
-</html>
+<% provide(:title, 'Help') %>
+	<h1><%=yield(:title) %></h1>
+	<p> Get info. Notice that
+		<a href="http://google.com/maps">Where are you now?</a>.
+			</p>
