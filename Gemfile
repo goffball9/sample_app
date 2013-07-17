@@ -4,7 +4,6 @@ gem 'rails', '4.0.0'
 gem 'bootstrap-sass', '2.1'
 gem 'bcrypt-ruby', '3.0.1'
 gem 'protected_attributes'
-gem 'requirejs-rails', git: 'git://github.com/jwhitley/requirejs-rails.git'
 
 # Bundle edge Rails instead:
 # gem 'rails', :git => 'git://github.com/rails/rails.git'
